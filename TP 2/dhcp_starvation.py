@@ -1,6 +1,7 @@
 from scapy.all import *
 import sys
 import time
+from ipaddress import ip_network, IPv4Address
 
 conf.checkIPaddr = False
 
